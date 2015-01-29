@@ -115,7 +115,7 @@ askMail = function() {
 				headers: headers,
 				content: JSON.stringify(content)
 			}).then(function(response) {
-				if (response.statusCode === 200) {
+				if (response.statusCode === 201) {
 					sendMail(email, code);
 				} else {
 					uidialogs.alert(alerts.unreg_email()).then(function(response) {

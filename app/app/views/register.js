@@ -97,8 +97,6 @@ isNewMail = function(email) {
 		content: JSON.stringify(content)
 	}).then(function(response) {
 		if (response.statusCode === 200) {
-			console.log("****");
-			console.log("Email is not registered");
 			return true;
 		} else {
 			return false;
