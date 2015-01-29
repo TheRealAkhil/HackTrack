@@ -1,3 +1,2 @@
-# Sandbox
-Experimenting with NativeScript
 # HackTrack
+My first NativeScript app
